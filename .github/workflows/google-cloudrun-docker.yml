@@ -61,7 +61,6 @@ jobs:
         uses: 'google-github-actions/auth@f112390a2df9932162083945e46d439060d66ec2' # google-github-actions/auth@v2
         with:
            credentials_json: '${{ secrets.GCP_CREDS }}' 
-           token_format: 'access_token'
 
       # BEGIN - Docker auth and build
       #
