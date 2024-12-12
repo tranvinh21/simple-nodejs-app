@@ -33,12 +33,11 @@ on:
   push:
     branches:
       - 'main'
-
 env:
   PROJECT_ID: 'my-practice-443804' # TODO: update to your Google Cloud project ID
   REGION: 'us-central1' # TODO: update to your region
-  SERVICE: 'api' # TODO: update to your service name
-  ARTIFACT_REPOSITORY: 'aitracuuluat'
+  SERVICE: 'my-service-2' # TODO: update to your service name
+  ARTIFACT_REPOSITORY: 'my-service-2'
   WORKLOAD_IDENTITY_PROVIDER: 'projects/219481582997/locations/global/workloadIdentityPools/github-action-cloud-run/providers/github' # TODO: update to your workload identity provider
 
 jobs:
